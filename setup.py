@@ -30,7 +30,7 @@ setup(name='ZombieStorm',
       author_email=__email__,
       url=__url__,
       entry_points={'console_scripts': 'zombiestorm=ZombieStorm:startUI'},
-      package_data={'': ['version.py']},
+      package_data={'': ['version.py', 'assets/players/*.png']},
       packages=find_packages(exclude=["*.test", "*.test.*", "test.*", "test"]),
       install_requires=['PyQt6']
      )
